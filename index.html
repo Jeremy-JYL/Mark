@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div>
+        <a href="http://">Github</a>
+        <hr>
+    </div>
+    <div>
+        <textarea rows="10" cols="50" id="mark"># Mark v1.0.0</textarea>
+        <p></p>
+        <button py-click="convert">Run</button>
+    </div>
+    <div>
+        <hr>
+        <div id="render", class="render"></div>
+        <hr>
+        <textarea rows="10" cols="50" id="code"></textarea>
+        <script type="py" src="./main.py" config="./pyscript.json"></script>
+    </div>
+</body>
+</html>

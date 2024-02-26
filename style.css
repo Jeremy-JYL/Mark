@@ -1,0 +1,9 @@
+.render {
+    border: 1px solid white;
+}
+body {
+    background-color: lightgrey;
+}
+hr {
+    border-color: white;
+}
